@@ -34,9 +34,9 @@ My primary concerns with DAPI as a whole are that:
 ## Proposal
 
 1. Primary use should be domain names (stay more decentralized, not less)
+  - Setup [CAA](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization) records for security
   - Suggested free domains
-  - [CAA](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization) records for security
-  - duckdns.org
-  - dash.io??
-  - Buy domains with Dash
-2. Either use [caddy](https://caddyserver.com/download) + Relevant DNS Plugin(s) (simple, lightweight, low effort, probably the right thing) or [greenlock](https://github.com/therootcompany/greenlock.js) (custom node integration, but portable across ACME providers)
+    - duckdns.org (no CAA)
+    - Create dash.io or some such??
+  - Create service to buy domains with Dash?
+2. For TLS, either use [caddy](https://caddyserver.com/download) + Relevant DNS Plugin(s) (simple, lightweight, low effort, probably the right thing) or [greenlock](https://github.com/therootcompany/greenlock.js) (custom node integration, but portable across ACME providers)
